@@ -1,0 +1,102 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.startMenu {
+    display: block;
+    width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    padding: auto;
+    justify-content: center;
+}
+
+.numOfCards {  
+    display: block;
+    width: 95%;
+    height: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.startButton {
+    display: block;
+    width: 95%;
+    height: 45px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 30px;
+    text-align: center;
+    font-style: bold; 
+    font-size: large;
+    color: black;
+    background-color: #FFFF00;
+    border: none;
+}
+
+.startButton:hover {
+  background-color: #FFCF40
+}
+
+.numOfCards:focus {
+    outline: none;
+    border-color: #FFFF00;
+}
+
+.gamingField {
+    display: block;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0 7px 21px 0 rgba(190, 0, 254, 0.25);
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.td {
+    padding: 10px 10px;
+}
+
+.card {
+    display: block;
+    width: 75px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.hideCard {
+    content: url(../img/rubashka.png);
+}
+
+.card:hover {
+    box-shadow: 20px 21px 21px -10px rgba(190, 0, 254, 0.25);
+}
+
+.selected {
+    box-shadow: 10px 11px 15px -10px #FFFF00;
+}
+
+.solved {
+    box-shadow: 10px 11px 21px -10px #008000;
+}
+
+.wrong {
+    box-shadow: 10px 11px 15px -10px #ff0000;
+}
